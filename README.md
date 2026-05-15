@@ -97,18 +97,40 @@ app/build/outputs/apk/release/app-release.apk
 Transfer this APK to an Android device and install it directly.
 
 Project Structure
-kumbara-kala/
+```text
+Kumbara-Kala/
+│
 ├── app/
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/         
-│   │   │   ├── res/          
-│   │   │   └── AndroidManifest.xml
-│   │   └── test/            
-│   └── build.gradle
-├── gradle/
+│   ├── activities/
+│   │   ├── MainActivity.kt
+│   │   ├── CatalogActivity.kt
+│   │   ├── StoryGeneratorActivity.kt
+│   │   └── ArtisanProfileActivity.kt
+│   │
+│   ├── adapters/
+│   │   └── ProductAdapter.kt
+│   │
+│   ├── models/
+│   │   ├── ProductModel.kt
+│   │   └── ArtisanModel.kt
+│   │
+│   ├── utils/
+│   │   ├── BitmapUtils.kt
+│   │   └── ShareUtils.kt
+│   │
+│   ├── res/
+│   │   ├── layout/
+│   │   ├── drawable/
+│   │   └── values/
+│   │
+│   └── AndroidManifest.xml
+│
+├── screenshots/
+├── README.md
 ├── build.gradle
-└── README.m
+└── settings.gradle
+```
+
 
 Permissions Required
 The app requests the following permissions at runtime:
