@@ -62,7 +62,6 @@ Step 3 — Build the Project
 bash# On macOS / Linux
 ./gradlew build
 
-# On Windows
 gradlew.bat build
 
 Step 4 — Run the App
