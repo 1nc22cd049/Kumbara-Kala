@@ -101,14 +101,14 @@ kumbara-kala/
 ├── app/
 │   ├── src/
 │   │   ├── main/
-│   │   │   ├── java/         # Kotlin source files
-│   │   │   ├── res/          # Layouts, drawables, strings
+│   │   │   ├── java/         
+│   │   │   ├── res/          
 │   │   │   └── AndroidManifest.xml
-│   │   └── test/             # Unit tests
+│   │   └── test/            
 │   └── build.gradle
 ├── gradle/
 ├── build.gradle
-└── README.md
+└── README.m
 
 Permissions Required
 The app requests the following permissions at runtime:
